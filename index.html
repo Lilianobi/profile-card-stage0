@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card - HNG</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <article class="profile-container" data-testid="test-profile-card">
+    <div class="user-card">
+      <figure class="avatar" data-testid="test-user-avatar">
+        <img src="avatar 3.jpg" alt="Picture of Lilian" />
+      </figure>
+
+      <div class="user-info">
+        <h1 class="username" data-testid="test-user-name">Lilian Obi</h1>
+        <p class="bio" data-testid="test-user-bio">
+          Lilian is an aspiring full-stack web developer based in Nigeria.
+        </p>
+        <p class="time" data-testid="test-user-time">
+          Current time: <span id="time"></span>
+        </p>
+
+        <h3>Connect with me</h3>
+        <ul class="socials" data-testid="test-user-social-links">
+          <li data-testid="test-user-social-github">
+            <a href="https://github.com/Lilianobi/Lilianobi.github.io" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </li>
+          <li data-testid="test-user-social-linkedin">
+            <a href="https://www.linkedin.com/in/lilian-obi-4445b817a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+
+      <section class="extra-info">
+        <h3>Hobbies</h3>
+        <ul data-testid="test-user-hobbies">
+          <li>I like golf</li>
+          <li>I love to travel</li>
+          <li>I love music</li>
+        </ul>
+
+        <h3>Dislikes</h3>
+        <ul data-testid="test-user-dislikes">
+          <li>Dirty nails</li>
+          <li>Unsanitary environment</li>
+        </ul>
+      </section>
+    </div>
+  </article>
+
+  <script src="script.js"></script>
+</body>
+</html>
