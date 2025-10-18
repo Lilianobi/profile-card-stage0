@@ -18,8 +18,8 @@ Each profile card displays user information, hobbies, dislikes, and live time in
 
  Demo
 
-🔗 **Live Demo:** [Your Netlify or GitHub Pages Link Here](#)  
-💻 **Repository Link:** [Your GitHub Repo Link Here](#)
+🔗 Live Demo: https://github.com/Lilianobi/profile-card-stage0
+💻 Repository Link: https://github.com/Lilianobi/profile-card-stage0
 
 
 
