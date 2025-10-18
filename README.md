@@ -18,7 +18,7 @@ Each profile card displays user information, hobbies, dislikes, and live time in
 
  Demo
 
-🔗 Live Demo: https://github.com/Lilianobi/profile-card-stage0
+🔗 Live Demo: https://lilianobi-profile-card-stage0.vercel.app/
 💻 Repository Link: https://github.com/Lilianobi/profile-card-stage0
 
 
