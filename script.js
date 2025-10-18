@@ -1,10 +1,11 @@
 function updateTime() {
   const timeElement = document.getElementById("time");
-  const now = new Date();
-  const formattedTime = now.toLocaleTimeString();
-  timeElement.textContent = formattedTime;
+  const now = Date.now();
+  timeElements.forEach(el => {
+    el.textContent = now;
+  });
 }
-
 
 updateTime();
 setInterval(updateTime, 1000);
+
